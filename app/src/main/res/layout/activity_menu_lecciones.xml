@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3F2FD"> <!-- Azul cielo suave -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="32dp"
+        android:gravity="center_horizontal">
+
+        <!-- Separador visual para bajar el título -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <!-- TÍTULO DEL MENÚ -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lecciones sobre Fraude con Clonación de Voz"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#0D47A1"
+            android:gravity="center"
+            android:layout_marginBottom="40dp" />
+
+        <!-- BOTÓN LECCIÓN 1 -->
+        <Button
+            android:id="@+id/btnLeccion1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="💬️ Lección 1: ¿Qué es la clonación de voz?"
+            android:textSize="22sp"
+            android:backgroundTint="#1976D2"
+            android:textColor="#FFFFFF"
+            android:padding="20dp"
+            android:layout_marginBottom="20dp" />
+
+        <!-- BOTÓN LECCIÓN 2 -->
+        <Button
+            android:id="@+id/btnLeccion2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🔍 Lección 2: ¿Por qué la clonación de voz es peligrosa?"
+            android:textSize="22sp"
+            android:backgroundTint="#1976D2"
+            android:textColor="#FFFFFF"
+            android:padding="20dp"
+            android:layout_marginBottom="20dp" />
+
+        <!-- BOTÓN LECCIÓN 3 -->
+        <Button
+            android:id="@+id/btnLeccion3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📞 Lección 3: Señales para detectar una posible estafa"
+            android:textSize="22sp"
+            android:backgroundTint="#1976D2"
+            android:textColor="#FFFFFF"
+            android:padding="20dp"
+            android:layout_marginBottom="20dp" />
+
+        <!-- BOTÓN LECCIÓN 4 -->
+        <Button
+            android:id="@+id/btnLeccion4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🧠 Lección 4 ¿Qué hacer si se recibe una llamada sospechosa?"
+            android:textSize="22sp"
+            android:backgroundTint="#1976D2"
+            android:textColor="#FFFFFF"
+            android:padding="20dp"
+            android:layout_marginBottom="20dp" />
+
+        <!-- BOTÓN LECCIÓN 5 -->
+        <Button
+            android:id="@+id/btnLeccion5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✅ Lección 5 ¿Cómo protegerse de la clonación de voz?"
+            android:textSize="22sp"
+            android:backgroundTint="#1976D2"
+            android:textColor="#FFFFFF"
+            android:padding="20dp"
+            android:layout_marginBottom="40dp" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3F2FD">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="28dp">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🧠 Lección 3: Señales para detectar una posible estafa con voz clonada"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#0D47A1"
+            android:textAlignment="center"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🔉 ¿Prefiere escuchar esta lección?"
+            android:textSize="22sp"
+            android:textStyle="italic"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnReproducirAudio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🔊 Reproducir audio"
+            android:textSize="22sp"
+            android:backgroundTint="#1976D2"
+            android:textColor="#FFFFFF"
+            android:padding="16dp"
+            android:layout_marginBottom="28dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📍 No todo lo que suena real, es verdadero."
+            android:textSize="22sp"
+            android:layout_marginBottom="20dp"
+            android:justificationMode="inter_word" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🎙️ ¿Cómo se puede detectar una voz clonada?"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#0D47A1"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A veces, aunque la voz suena igual a la de un familiar, hay pequeños detalles que no cuadran. Las voces clonadas pueden sonar planas, con pausas raras o sin respuestas naturales cuando se les hacen preguntas."
+            android:textSize="22sp"
+            android:layout_marginBottom="20dp"
+            android:justificationMode="inter_word" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="👀 Señales de advertencia:"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#0D47A1"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• La persona se salta saludos o costumbres familiares.\n• Repite frases como si no entendiera bien.\n• Se niega a hablar con otra persona o cambiar de tema.\n• Presiona con urgencia o se molesta si se duda."
+            android:textSize="22sp"
+            android:layout_marginBottom="20dp"
+            android:justificationMode="inter_word" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="⚠️ Lo más importante:"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#0D47A1"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ante la duda, hay que colgar y verificar por otro medio. Si la situación es real, el familiar podrá responder desde su propio número o explicarse con claridad."
+            android:textSize="22sp"
+            android:layout_marginBottom="36dp"
+            android:justificationMode="inter_word" />
+
+        <Button
+            android:id="@+id/btnIrSimulacion3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ir a la Simulación"
+            android:textSize="22sp"
+            android:backgroundTint="#388E3C"
+            android:textColor="#FFFFFF"
+            android:padding="16dp" />
+    </LinearLayout>
+</ScrollView>

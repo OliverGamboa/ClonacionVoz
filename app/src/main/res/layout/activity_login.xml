@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3F2FD"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:paddingBottom="32dp">
+
+        <!-- Ícono de usuario -->
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_user"
+            android:layout_marginTop="30dp"
+            android:contentDescription="Ícono de usuario" />
+
+        <!-- Título -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Inicio de Sesión"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#37474F"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="32dp" />
+
+        <!-- Campo de correo con ícono -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/ic_email"
+                android:contentDescription="Ícono de correo"
+                android:layout_marginEnd="12dp" />
+
+            <EditText
+                android:id="@+id/etCorreo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Correo electrónico"
+                android:textColorHint="#4E342E"
+                android:textColor="#4E342E"
+                android:textSize="22sp"
+                android:padding="14dp"
+                android:backgroundTint="#BDBDBD"
+                android:inputType="textEmailAddress" />
+        </LinearLayout>
+
+        <!-- Campo de contraseña con ícono -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="30dp">
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/ic_lock"
+                android:contentDescription="Ícono de contraseña"
+                android:layout_marginEnd="12dp" />
+
+            <EditText
+                android:id="@+id/etContrasena"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Contraseña"
+                android:textColorHint="#4E342E"
+                android:textColor="#4E342E"
+                android:textSize="22sp"
+                android:padding="14dp"
+                android:backgroundTint="#BDBDBD"
+                android:inputType="textPassword" />
+        </LinearLayout>
+
+        <!-- Botón de iniciar sesión -->
+        <Button
+            android:id="@+id/btnIniciarSesion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="INICIAR SESIÓN"
+            android:textSize="22sp"
+            android:padding="16dp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#66BB6A"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Texto de error -->
+        <TextView
+            android:id="@+id/tvError"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20sp"
+            android:textColor="#D32F2F"
+            android:visibility="gone"
+            android:gravity="center"
+            android:layout_marginTop="8dp" />
+
+        <!-- Ir a registro -->
+        <TextView
+            android:id="@+id/tvIrRegistro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:text="¿No tienes cuenta? Regístrate aquí"
+            android:textColor="#1976D2"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>
+

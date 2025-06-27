@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.ClonacionVoz" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Colores primarios suaves -->
+        <item name="colorPrimary">#AED581</item>
+        <item name="colorPrimaryDark">#9CCC65</item> <!-- Este sí es válido en Material 2 -->
+
+        <!-- Colores secundarios con buen contraste -->
+        <item name="colorAccent">#FFCC80</item>
+
+        <!-- Fondo general -->
+        <item name="android:windowBackground">#FFF8E1</item>
+
+        <!-- Texto principal accesible -->
+        <item name="android:textColorPrimary">#3E2723</item>
+
+        <!-- Fuente -->
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+</resources>

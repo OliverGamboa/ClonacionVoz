@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#87CEEB">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lecciones sobre Fraude con Clonación de Voz"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_marginBottom="32dp" />
+
+        <!-- Botones para cada lección -->
+        <Button
+            android:id="@+id/btnLeccion1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lección 1"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnLeccion2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lección 2"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnLeccion3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lección 3"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnLeccion4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lección 4"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnLeccion5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lección 5"
+            android:layout_marginBottom="32dp" />
+
+    </LinearLayout>
+</ScrollView>

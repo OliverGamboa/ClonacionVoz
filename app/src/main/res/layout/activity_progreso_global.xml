@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#FFFDE7"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <!-- Título -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Progreso de Evaluaciones"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#4E342E"
+            android:layout_marginBottom="8dp"
+            android:gravity="center" />
+
+        <!-- Subtítulo -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Promedio global de evaluaciones realizadas por usuarios"
+            android:textSize="18sp"
+            android:textColor="#5D4037"
+            android:gravity="center"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Contenedor del gráfico -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:padding="16dp"
+            android:layout_marginBottom="36dp"
+            android:elevation="4dp"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp"
+            android:clipToOutline="true"
+            android:backgroundTint="#FFFFFF">
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/barChartProgreso"
+                android:layout_width="match_parent"
+                android:layout_height="400dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3F2FD"
+    android:padding="32dp"
+    android:baselineAligned="false">
+
+    <!-- TÍTULO PRINCIPAL -->
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clonación de Voz - Prevención de Fraudes"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#0D47A1"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- SALUDO Y PERFIL (justo debajo del título, alineado a la derecha) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:layout_marginBottom="32dp">
+
+        <TextView
+            android:id="@+id/tvSaludo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¡Hola!"
+            android:textSize="22sp"
+            android:textColor="#4E342E"
+            android:layout_marginEnd="12dp" />
+
+        <ImageView
+            android:id="@+id/ivIconoUsuario"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ic_usuario"
+            android:contentDescription="Icono de usuario" />
+    </LinearLayout>
+
+    <!-- BOTÓN LECCIONES -->
+    <Button
+        android:id="@+id/btnLecciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📘 Lecciones"
+        android:textSize="22sp"
+        android:backgroundTint="#1976D2"
+        android:textColor="#FFFFFF"
+        android:padding="20dp"
+        android:layout_marginBottom="20dp" />
+
+    <!-- BOTÓN SIMULACIONES -->
+    <Button
+        android:id="@+id/btnSimulaciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🎮 Simulaciones"
+        android:textSize="22sp"
+        android:backgroundTint="#689F38"
+        android:textColor="#FFFFFF"
+        android:padding="20dp"
+        android:layout_marginBottom="20dp" />
+
+    <!-- BOTÓN EVALUACIÓN -->
+    <Button
+        android:id="@+id/btnEvaluacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📝 Evaluación"
+        android:textSize="22sp"
+        android:backgroundTint="#8D6E63"
+        android:textColor="#FFFFFF"
+        android:padding="20dp"
+        android:layout_marginBottom="20dp" />
+
+    <!-- BOTÓN PROGRESO -->
+    <Button
+        android:id="@+id/btnProgreso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📊 Progreso"
+        android:textSize="22sp"
+        android:backgroundTint="#F9A825"
+        android:textColor="#FFFFFF"
+        android:padding="20dp"
+        android:layout_marginBottom="40dp" />
+
+    <!-- BOTÓN CERRAR SESIÓN -->
+    <Button
+        android:id="@+id/btnCerrarSesion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cerrar sesión"
+        android:textSize="22sp"
+        android:backgroundTint="#D32F2F"
+        android:textColor="#FFFFFF"
+        android:padding="14dp"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>
+

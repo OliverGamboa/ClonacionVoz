@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFDE7"
+    android:padding="32dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <!-- Separador superior -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <!-- TÍTULO -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📝 Evaluación - Lección 4"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#4E342E"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="36dp" />
+
+        <!-- Pregunta 1 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. ¿Qué debe hacer primero una persona si recibe una llamada extraña?"
+            android:textSize="22sp"
+            android:textColor="#4E342E"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/nunito_extrabold" />
+
+        <RadioGroup
+            android:id="@+id/rgPregunta1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton android:id="@+id/rb1a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="A) Confiar si la voz suena familiar" android:textSize="22sp" />
+            <RadioButton android:id="@+id/rb1b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="B) Enviar dinero rápido" android:textSize="22sp" />
+            <RadioButton android:id="@+id/rb1c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="C) Mantener la calma y verificar" android:textSize="22sp" />
+        </RadioGroup>
+
+        <TextView android:id="@+id/feedback1" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:textSize="20sp" android:textColor="#006400" android:layout_marginTop="15dp" android:layout_marginBottom="24dp" />
+
+        <!-- Pregunta 2 -->
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="2. ¿Cuál es la mejor forma de confirmar si una llamada es real?" android:textSize="22sp" android:textColor="#4E342E" android:layout_marginTop="40dp" android:layout_marginBottom="8dp" android:fontFamily="@font/nunito_extrabold" />
+        <RadioGroup android:id="@+id/rgPregunta2" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+            <RadioButton android:id="@+id/rb2a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="A) Llamar al familiar directamente" android:textSize="22sp" />
+            <RadioButton android:id="@+id/rb2b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="B) Seguir hablando con el que llamó" android:textSize="22sp" />
+            <RadioButton android:id="@+id/rb2c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="C) Hacer lo que piden y luego preguntar" android:textSize="22sp" />
+        </RadioGroup>
+        <TextView android:id="@+id/feedback2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:textSize="20sp" android:textColor="#006400" android:layout_marginTop="15dp" android:layout_marginBottom="24dp" />
+
+        <!-- Pregunta 3 -->
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="3. ¿Qué información nunca debe compartirse por una llamada sospechosa?" android:textSize="22sp" android:textColor="#4E342E" android:layout_marginTop="40dp" android:layout_marginBottom="8dp" android:fontFamily="@font/nunito_extrabold" />
+        <RadioGroup android:id="@+id/rgPregunta3" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+            <RadioButton android:id="@+id/rb3a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="A) La edad" android:textSize="22sp" />
+            <RadioButton android:id="@+id/rb3b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="B) El lugar de residencia" android:textSize="22sp" />
+            <RadioButton android:id="@+id/rb3c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="C) Datos bancarios" android:textSize="22sp" />
+        </RadioGroup>
+        <TextView android:id="@+id/feedback3" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:textSize="20sp" android:textColor="#006400" android:layout_marginTop="15dp" android:layout_marginBottom="24dp" />
+
+        <!-- Pregunta 4 -->
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="4. ¿Qué indica una llamada que insiste en no contarle a nadie más?" android:textSize="22sp" android:textColor="#4E342E" android:layout_marginTop="40dp" android:layout_marginBottom="8dp" android:fontFamily="@font/nunito_extrabold" />
+        <RadioGroup android:id="@+id/rgPregunta4" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+            <RadioButton android:id="@+id/rb4a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="A) Que es una emergencia real" android:textSize="22sp" />
+            <RadioButton android:id="@+id/rb4b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="B) Que puede tratarse de una estafa" android:textSize="22sp" />
+            <RadioButton android:id="@+id/rb4c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="C) Que la persona está apenada" android:textSize="22sp" />
+        </RadioGroup>
+        <TextView android:id="@+id/feedback4" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:textSize="20sp" android:textColor="#006400" android:layout_marginTop="15dp" android:layout_marginBottom="24dp" />
+
+        <!-- Pregunta 5 -->
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="5. ¿Cuál es una buena medida preventiva ante posibles llamadas fraudulentas?" android:textSize="22sp" android:textColor="#4E342E" android:layout_marginTop="40dp" android:layout_marginBottom="8dp" android:fontFamily="@font/nunito_extrabold" />
+        <RadioGroup android:id="@+id/rgPregunta5" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+            <RadioButton android:id="@+id/rb5a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="A) Cambiar de número constantemente" android:textSize="22sp" />
+            <RadioButton android:id="@+id/rb5b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="B) No contestar llamadas de la familia" android:textSize="22sp" />
+            <RadioButton android:id="@+id/rb5c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="C) Hablar con los familiares sobre estos riesgos" android:textSize="22sp" />
+        </RadioGroup>
+        <TextView android:id="@+id/feedback5" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:textSize="20sp" android:textColor="#006400" android:layout_marginTop="15dp" android:layout_marginBottom="24dp" />
+
+        <!-- Pregunta 6 -->
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="6. ¿Qué acción puede proteger a otros miembros de la familia?" android:textSize="22sp" android:textColor="#4E342E" android:layout_marginTop="40dp" android:layout_marginBottom="8dp" android:fontFamily="@font/nunito_extrabold" />
+        <RadioGroup android:id="@+id/rgPregunta6" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+            <RadioButton android:id="@+id/rb6a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="A) Ignorar la llamada" android:textSize="22sp" />
+            <RadioButton android:id="@+id/rb6b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="B) Informarles lo que ocurrió" android:textSize="22sp" />
+            <RadioButton android:id="@+id/rb6c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="C) Eliminar el historial de llamadas" android:textSize="22sp" />
+        </RadioGroup>
+        <TextView android:id="@+id/feedback6" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:textSize="20sp" android:textColor="#006400" android:layout_marginTop="15dp" android:layout_marginBottom="100dp" />
+    <!-- Botón Finalizar -->
+<Button
+android:id="@+id/btnFinalizar"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Finalizar evaluación"
+android:textSize="22sp"
+android:backgroundTint="#00796B"
+android:textColor="#FFFFFF"
+android:padding="20dp"
+android:layout_marginBottom="36dp" />
+
+
+    <!-- RESULTADO -->
+<TextView
+android:id="@+id/tvResultado"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text=""
+android:textSize="22sp"
+android:textStyle="bold"
+android:textColor="#4E342E"
+android:layout_marginBottom="12dp" />
+
+    <!-- LEYENDA DE PROGRESO -->
+<TextView
+android:id="@+id/tvProgresoGuardado"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text=""
+android:textSize="20sp"
+android:textColor="#555555"
+android:layout_marginBottom="16dp" />
+
+    <!-- IMAGEN -->
+<ImageView
+android:id="@+id/imgRetroalimentacion"
+android:layout_width="match_parent"
+android:layout_height="200dp"
+android:layout_marginBottom="40dp"
+android:scaleType="fitCenter"
+android:visibility="gone" />
+
+    </LinearLayout>
+    </ScrollView>
+

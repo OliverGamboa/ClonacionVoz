@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="32dp"
+    android:background="#FFF8E1"> <!-- Fondo beige claro -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <!-- Separador para evitar que el título esté pegado arriba -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <!-- TÍTULO -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Simulaciones"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#4E342E"
+        android:gravity="center"
+        android:layout_marginBottom="40dp" />
+
+        <!-- BOTÓN SIMULACIÓN 1 -->
+        <Button
+            android:id="@+id/btnSimulacion1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🎧 Simulación Lección 1"
+            android:textSize="22sp"
+            android:backgroundTint="#689F38"
+            android:textColor="#FFFFFF"
+            android:padding="20dp"
+            android:layout_marginBottom="20dp" />
+
+        <!-- BOTÓN SIMULACIÓN 2 -->
+        <Button
+            android:id="@+id/btnSimulacion2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🔊 Simulación Lección 2"
+            android:textSize="22sp"
+            android:backgroundTint="#689F38"
+            android:textColor="#FFFFFF"
+            android:padding="20dp"
+            android:layout_marginBottom="20dp" />
+
+        <!-- BOTÓN SIMULACIÓN 3 -->
+        <Button
+            android:id="@+id/btnSimulacion3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="☎️ Simulación Lección 3"
+            android:textSize="22sp"
+            android:backgroundTint="#689F38"
+            android:textColor="#FFFFFF"
+            android:padding="20dp"
+            android:layout_marginBottom="20dp" />
+
+        <!-- BOTÓN SIMULACIÓN 4 -->
+        <Button
+            android:id="@+id/btnSimulacion4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🧠 Simulación Lección 4"
+            android:textSize="22sp"
+            android:backgroundTint="#689F38"
+            android:textColor="#FFFFFF"
+            android:padding="20dp"
+            android:layout_marginBottom="40dp" />
+
+        <!-- BOTÓN SIMULACIÓN 5 -->
+        <Button
+            android:id="@+id/btnSimulacion5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🎭 Simulación Lección 5"
+            android:textSize="22sp"
+            android:backgroundTint="#689F38"
+            android:textColor="#FFFFFF"
+            android:padding="20dp"
+            android:layout_marginBottom="40dp" />
+
+    </LinearLayout>
+</ScrollView>

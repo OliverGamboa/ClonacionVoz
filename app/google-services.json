@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "696589961365",
+    "project_id": "clonacionvozapp",
+    "storage_bucket": "clonacionvozapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:696589961365:android:199fdef1b0a24480f5339c",
+        "android_client_info": {
+          "package_name": "com.example.clonacionvoz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA454-fY9wvglnNY7Y9uH-n6kk4ilB9FAA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

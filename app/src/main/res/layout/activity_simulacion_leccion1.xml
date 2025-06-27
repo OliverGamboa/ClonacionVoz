@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="32dp"
+    android:background="#FFF8E1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <!-- Separador superior -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <!-- Introducción -->
+        <TextView
+            android:id="@+id/tvIntro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Simulación de una llamada falsa\n\nA continuación se le presentará un audio en donde una persona le pide ayuda debido a un accidente. RECUERDA que esta voz podría ser tu familiar… ¡Imagínala!"
+            android:textSize="22sp"
+            android:textStyle="italic"
+            android:textColor="#4E342E"
+            android:layout_marginBottom="32dp"
+            android:justificationMode="inter_word" />
+
+        <!-- Botón de audio -->
+        <Button
+            android:id="@+id/btnReproducirAudio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🔊 Reproducir llamada simulada"
+            android:textSize="22sp"
+            android:backgroundTint="#689F38"
+            android:textColor="#FFFFFF"
+            android:padding="18dp"
+            android:layout_marginBottom="36dp" />
+
+        <!-- Pregunta -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¿Qué harías tú en esta situación?"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#33691E"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Botón Opción 1 (Correcta) -->
+        <Button
+            android:id="@+id/btnOpcion1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Colgar y verificar llamando a un número conocido"
+            android:textSize="22sp"
+            android:textColor="#FFFFFF"
+            android:padding="16dp"
+            android:backgroundTint="#607D8B"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/feedbackOpcion1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20sp"
+            android:textColor="#388E3C"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Botón Opción 2 (Incorrecta) -->
+        <Button
+            android:id="@+id/btnOpcion2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enviar el dinero de inmediato"
+            android:textSize="22sp"
+            android:textColor="#FFFFFF"
+            android:padding="16dp"
+            android:backgroundTint="#607D8B"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/feedbackOpcion2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20sp"
+            android:textColor="#D32F2F"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Botón Opción 3 (Incorrecta) -->
+        <Button
+            android:id="@+id/btnOpcion3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Compartir información personal"
+            android:textSize="22sp"
+            android:textColor="#FFFFFF"
+            android:padding="16dp"
+            android:backgroundTint="#607D8B"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/feedbackOpcion3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20sp"
+            android:textColor="#D32F2F"
+            android:layout_marginBottom="36dp" />
+
+
+        <!-- Botón para ir a evaluación -->
+        <Button
+            android:id="@+id/btnIrEvaluacion1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📋 Ir a la Evaluación 1"
+            android:textSize="22sp"
+            android:backgroundTint="#00796B"
+            android:textColor="#FFFFFF"
+            android:padding="18dp"
+            android:layout_marginBottom="40dp" />
+
+    </LinearLayout>
+</ScrollView>

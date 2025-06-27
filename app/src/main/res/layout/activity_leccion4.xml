@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3F2FD">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="28dp">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🧠 Lección 4: Qué hacer si se recibe una llamada sospechosa"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#0D47A1"
+            android:textAlignment="center"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🔉 ¿Prefiere escuchar esta lección?"
+            android:textSize="22sp"
+            android:textStyle="italic"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnReproducirAudio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🔊 Reproducir audio"
+            android:textSize="22sp"
+            android:backgroundTint="#1976D2"
+            android:textColor="#FFFFFF"
+            android:padding="16dp"
+            android:layout_marginBottom="28dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📍 La voz puede sonar real, pero los hechos son lo más importante."
+            android:textSize="22sp"
+            android:layout_marginBottom="20dp"
+            android:justificationMode="inter_word" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📞 ¿Qué debe hacer una persona al recibir una llamada extraña?"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#0D47A1"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lo primero es mantener la calma. A veces, los estafadores buscan provocar miedo para que las personas actúen sin pensar. Incluso si la voz suena igual a la de un familiar, es importante no tomar decisiones apresuradas."
+            android:textSize="22sp"
+            android:layout_marginBottom="20dp"
+            android:justificationMode="inter_word" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🧭 Pasos clave a seguir:"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#0D47A1"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Colgar la llamada.\n2. Contactar directamente al familiar con su número habitual.\n3. Evitar compartir datos personales o bancarios.\n4. Informar a otro miembro de la familia para estar alerta."
+            android:textSize="22sp"
+            android:layout_marginBottom="20dp"
+            android:justificationMode="inter_word" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🚫 Nunca se debe enviar dinero sin confirmar la situación por otros medios."
+            android:textSize="22sp"
+            android:layout_marginBottom="20dp"
+            android:justificationMode="inter_word"
+            android:textColor="#D32F2F" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="💬 Hablarlo con la familia puede salvar a todos de una estafa."
+            android:textSize="22sp"
+            android:layout_marginBottom="36dp"
+            android:justificationMode="inter_word" />
+
+        <Button
+            android:id="@+id/btnIrSimulacion4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ir a la Simulación"
+            android:textSize="22sp"
+            android:backgroundTint="#388E3C"
+            android:textColor="#FFFFFF"
+            android:padding="16dp" />
+    </LinearLayout>
+</ScrollView>
+

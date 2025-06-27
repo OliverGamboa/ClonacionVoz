@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFDE7"
+    android:padding="32dp">
+
+<LinearLayout
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:gravity="center_horizontal">
+
+<!-- Separador superior -->
+<Space
+    android:layout_width="match_parent"
+    android:layout_height="40dp" />
+
+<!-- TÍTULO -->
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="📝 Evaluación - Lección 1"
+    android:textSize="24sp"
+    android:textStyle="bold"
+    android:textColor="#4E342E"
+    android:gravity="center"
+    android:layout_marginTop="30dp"
+    android:layout_marginBottom="36dp" />
+
+    <!-- Pregunta 1 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. ¿Qué es la clonación de voz?"
+        android:textSize="22sp"
+        android:textColor="#4E342E"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/nunito_extrabold" />
+
+    <RadioGroup
+        android:id="@+id/rgPregunta1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rb1a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A) Un imitador profesional"
+            android:layout_marginTop="30dp"
+            android:textSize="22sp" />
+
+        <RadioButton
+            android:id="@+id/rb1b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B) Una grabación de una canción antigua"
+            android:layout_marginTop="30dp"
+            android:textSize="22sp" />
+
+        <RadioButton
+            android:id="@+id/rb1c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C) Un tipo de llamada por cobrar"
+            android:layout_marginTop="30dp"
+            android:textSize="22sp" />
+
+        <RadioButton
+            android:id="@+id/rb1d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D) Una tecnología que copia digitalmente la voz de una persona usando inteligencia artificial"
+            android:layout_marginTop="30dp"
+            android:textSize="22sp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/feedback1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+        android:textColor="#006400"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Pregunta 2 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. ¿Qué se necesita para crear una voz clonada?"
+        android:textSize="22sp"
+        android:layout_marginBottom="8dp"
+        android:textColor="#4E342E"
+        android:fontFamily="@font/nunito_extrabold"/>
+
+    <RadioGroup
+        android:id="@+id/rgPregunta2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rb2a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A) Una carta firmada"
+            android:layout_marginTop="30dp"
+            android:textSize="22sp" />
+
+        <RadioButton
+            android:id="@+id/rb2b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B) Grabaciones de la voz original"
+            android:layout_marginTop="30dp"
+            android:textSize="22sp" />
+
+        <RadioButton
+            android:id="@+id/rb2c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C) Fotografías de la persona"
+            android:layout_marginTop="30dp"
+            android:textSize="22sp" />
+
+        <RadioButton
+            android:id="@+id/rb2d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D) Videos sin audio"
+            android:layout_marginTop="30dp"
+            android:textSize="22sp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/feedback2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+        android:textColor="#006400"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Pregunta 3 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3. ¿Qué hace el programa de inteligencia artificial con las grabaciones?"
+        android:textSize="22sp"
+        android:layout_marginBottom="8dp"
+        android:textColor="#4E342E"
+        android:fontFamily="@font/nunito_extrabold"/>
+
+    <RadioGroup
+        android:id="@+id/rgPregunta3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rb3a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A) Las convierte en texto"
+            android:layout_marginTop="30dp"
+            android:textSize="22sp" />
+
+        <RadioButton
+            android:id="@+id/rb3b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B) Analiza el tono, ritmo y forma de hablar"
+            android:layout_marginTop="30dp"
+            android:textSize="22sp" />
+
+        <RadioButton
+            android:id="@+id/rb3c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C) Las borra automáticamente"
+            android:layout_marginTop="30dp"
+            android:textSize="22sp" />
+
+        <RadioButton
+            android:id="@+id/rb3d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D) Las guarda como música"
+            android:layout_marginTop="30dp"
+            android:textSize="22sp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/feedback3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+        android:textColor="#006400"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Pregunta 4 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4. ¿Por qué es peligrosa la clonación de voz?"
+        android:textSize="22sp"
+        android:layout_marginBottom="8dp"
+        android:textColor="#4E342E"
+        android:fontFamily="@font/nunito_extrabold"/>
+
+    <RadioGroup
+        android:id="@+id/rgPregunta4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rb4a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A) Porque impide hacer llamadas normales"
+            android:layout_marginTop="30dp"
+            android:textSize="22sp" />
+
+        <RadioButton
+            android:id="@+id/rb4b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B) Porque los delincuentes pueden engañar a otros fingiendo ser un ser querido"
+            android:layout_marginTop="30dp"
+            android:textSize="22sp" />
+
+        <RadioButton
+            android:id="@+id/rb4c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C) Porque solo funciona de noche"
+            android:layout_marginTop="30dp"
+            android:textSize="22sp" />
+
+        <RadioButton
+            android:id="@+id/rb4d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D) Porque puede robar la identidad visual de una persona"
+            android:layout_marginTop="30dp"
+            android:textSize="22sp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/feedback4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+        android:textColor="#006400"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Pregunta 5 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5. ¿Cómo puedes protegerte de estos fraudes?"
+        android:textSize="22sp"
+        android:layout_marginBottom="8dp"
+        android:textColor="#4E342E"
+        android:fontFamily="@font/nunito_extrabold"/>
+
+    <RadioGroup
+        android:id="@+id/rgPregunta5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rb5a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A) Comprando un nuevo teléfono"
+            android:layout_marginTop="30dp"
+            android:textSize="22sp" />
+
+        <RadioButton
+            android:id="@+id/rb5b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B) Colgando sin escuchar"
+            android:layout_marginTop="30dp"
+            android:textSize="22sp" />
+
+        <RadioButton
+            android:id="@+id/rb5c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C) No contestando nunca el teléfono"
+            android:layout_marginTop="30dp"
+            android:textSize="22sp" />
+
+        <RadioButton
+            android:id="@+id/rb5d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D) Aprendiendo a identificar señales de fraude y estar informado"
+            android:layout_marginTop="30dp"
+            android:textSize="22sp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/feedback5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+        android:textColor="#006400"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Pregunta 6 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="6. ¿Qué deberías hacer primero si alguien que dice ser tu familiar te pide dinero urgente?"
+        android:textSize="22sp"
+        android:layout_marginBottom="8dp"
+        android:textColor="#4E342E"
+        android:fontFamily="@font/nunito_extrabold"/>
+
+    <RadioGroup
+        android:id="@+id/rgPregunta6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rb6a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A) Compartir tus datos bancarios para ayudarlo rápido"
+            android:layout_marginTop="30dp"
+            android:textSize="22sp" />
+
+        <RadioButton
+            android:id="@+id/rb6b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B) Verificar su identidad llamando a un número que tú ya conoces"
+            android:layout_marginTop="30dp"
+            android:textSize="22sp" />
+
+        <RadioButton
+            android:id="@+id/rb6c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C) Enviar el dinero lo más pronto posible"
+            android:layout_marginTop="30dp"
+            android:textSize="22sp" />
+
+        <RadioButton
+            android:id="@+id/rb6d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D) No decir nada y colgar inmediatamente"
+            android:layout_marginTop="30dp"
+            android:textSize="22sp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/feedback6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+        android:textColor="#006400"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Pregunta 7 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="7. ¿La clonación de voz puede detectarse fácilmente al oído?"
+        android:textSize="22sp"
+        android:layout_marginBottom="8dp"
+        android:textColor="#4E342E"
+        android:fontFamily="@font/nunito_extrabold"/>
+
+    <RadioGroup
+        android:id="@+id/rgPregunta7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rb7a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A) Sí, porque siempre suena como un robot"
+            android:layout_marginTop="30dp"
+            android:textSize="22sp" />
+
+        <RadioButton
+            android:id="@+id/rb7b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B) No siempre, porque puede sonar igual que una persona real"
+            android:layout_marginTop="30dp"
+            android:textSize="22sp" />
+
+        <RadioButton
+            android:id="@+id/rb7c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C) Sí, porque se escucha en otro idioma"
+            android:layout_marginTop="30dp"
+            android:textSize="22sp" />
+
+        <RadioButton
+            android:id="@+id/rb7d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D) No, porque es una grabación vieja"
+            android:layout_marginTop="30dp"
+            android:textSize="22sp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/feedback7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+        android:textColor="#006400"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="24dp" />
+    <!-- Pregunta 8 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="8. ¿Qué harías si una voz que suena como tu nieto te llama diciendo que está en peligro, pero no reconoce detalles familiares?"
+        android:textSize="22sp"
+        android:layout_marginBottom="8dp"
+        android:textColor="#4E342E"
+        android:fontFamily="@font/nunito_extrabold"/>
+
+    <RadioGroup
+        android:id="@+id/rgPregunta8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rb8a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A) Ignorar la llamada y no hacer nada"
+            android:layout_marginTop="30dp"
+            android:textSize="22sp" />
+
+        <RadioButton
+            android:id="@+id/rb8b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B) Colgar y llamar directamente a su número personal"
+            android:layout_marginTop="30dp"
+            android:textSize="22sp" />
+
+        <RadioButton
+            android:id="@+id/rb8c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C) Decirle todos los nombres de tus familiares para ver si los recuerda"
+            android:layout_marginTop="30dp"
+            android:textSize="22sp" />
+
+        <RadioButton
+            android:id="@+id/rb8d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D) Enviarle dinero sin pensar, porque puede ser urgente"
+            android:layout_marginTop="30dp"
+            android:textSize="22sp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/feedback8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+        android:textColor="#006400"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Pregunta 9 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="9. ¿Cuál de las siguientes afirmaciones sobre la clonación de voz es verdadera?"
+        android:textSize="22sp"
+        android:layout_marginBottom="8dp"
+        android:textColor="#4E342E"
+        android:fontFamily="@font/nunito_extrabold"/>
+
+    <RadioGroup
+        android:id="@+id/rgPregunta9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rb9a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A) Solo funciona si la persona está hablando en ese momento"
+            android:layout_marginTop="30dp"
+            android:textSize="22sp" />
+
+        <RadioButton
+            android:id="@+id/rb9b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B) Puede usarse tanto para fines positivos como para cometer fraudes"
+            android:layout_marginTop="30dp"
+            android:textSize="22sp" />
+
+        <RadioButton
+            android:id="@+id/rb9c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C) No necesita audios, solo fotos para funcionar"
+            android:layout_marginTop="30dp"
+            android:textSize="22sp" />
+
+        <RadioButton
+            android:id="@+id/rb9d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D) Siempre es usada para cosas buenas, como ayudar a personas sin voz"
+            android:layout_marginTop="30dp"
+            android:textSize="22sp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/feedback9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+        android:textColor="#006400"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Botón Finalizar -->
+    <Button
+        android:id="@+id/btnFinalizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Finalizar evaluación"
+        android:textSize="22sp"
+        android:backgroundTint="#00796B"
+        android:textColor="#FFFFFF"
+        android:padding="20dp"
+        android:layout_marginBottom="36dp" />
+
+
+<!-- RESULTADO -->
+<TextView
+    android:id="@+id/tvResultado"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text=""
+    android:textSize="22sp"
+    android:textStyle="bold"
+    android:textColor="#4E342E"
+    android:layout_marginBottom="12dp" />
+
+<!-- LEYENDA DE PROGRESO -->
+<TextView
+    android:id="@+id/tvProgresoGuardado"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text=""
+    android:textSize="20sp"
+    android:textColor="#555555"
+    android:layout_marginBottom="16dp" />
+
+<!-- IMAGEN -->
+<ImageView
+    android:id="@+id/imgRetroalimentacion"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_marginBottom="40dp"
+    android:scaleType="fitCenter"
+    android:visibility="gone" />
+</LinearLayout>
+    </ScrollView>
+

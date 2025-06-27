@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3F2FD"> <!-- Fondo azul claro -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="28dp">
+
+        <!-- Separador superior -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+
+        <!-- TÍTULO PRINCIPAL -->
+        <TextView
+            android:id="@+id/tvTituloLeccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🧠 Lección 2: ¿Por qué la clonación de voz es peligrosa?"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#0D47A1"
+            android:textAlignment="center"
+            android:layout_marginBottom="24dp" />
+
+        <!-- BOTÓN DE AUDIO -->
+        <TextView
+            android:id="@+id/tvInstruccionAudio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🔉 ¿Prefiere escuchar esta lección?"
+            android:textSize="22sp"
+            android:textStyle="italic"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnReproducirAudio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🔊 Reproducir audio"
+            android:textSize="22sp"
+            android:backgroundTint="#1976D2"
+            android:textColor="#FFFFFF"
+            android:padding="16dp"
+            android:layout_marginBottom="28dp" />
+
+        <!-- PÁRRAFO INICIAL -->
+        <TextView
+            android:id="@+id/tvParrafo1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📍 ¿Le ha pasado que escucha una voz conocida y siente preocupación al instante, como si fuera real?"
+            android:textSize="22sp"
+            android:layout_marginBottom="20dp"
+            android:justificationMode="inter_word" />
+
+        <!-- SUBTÍTULO 1 -->
+        <TextView
+            android:id="@+id/tvSubtitulo1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="⚠️ Una voz clonada puede provocar emociones reales"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#0D47A1"
+            android:layout_marginBottom="12dp" />
+
+        <!-- SEGUNDO PARRAFO -->
+        <TextView
+            android:id="@+id/tvParrafo2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Los estafadores no solo copian la voz. También buscan provocar miedo, urgencia o tristeza para que las personas tomen decisiones rápidas sin pensar.\n\nPor ejemplo, llaman diciendo: “¡Abuelita, tuve un accidente y necesito dinero!”\n\nAunque la voz parezca auténtica, puede tratarse de una imitación creada por computadora."
+            android:textSize="22sp"
+            android:layout_marginBottom="20dp"
+            android:justificationMode="inter_word" />
+
+
+        <!-- SUBTÍTULO -->
+        <TextView
+            android:id="@+id/tvSubtitulo2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="💡 ¿Qué hace que sea tan peligrosa?"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#0D47A1"
+            android:layout_marginBottom="12dp" />
+
+        <!-- PÁRRAFO 2 -->
+        <TextView
+            android:id="@+id/tvParrafo3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Suena como un ser querido, lo que genera confianza inmediata.\n• Utiliza frases emotivas que presionan a actuar rápido.\n• Puede engañar incluso a personas muy cuidadosas."
+            android:textSize="22sp"
+            android:layout_marginBottom="28dp"
+            android:justificationMode="inter_word" />
+
+        <!-- SUBTÍTULO CONSEJO -->
+        <TextView
+            android:id="@+id/tvSubtitulo3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🧭 ¿Qué debe hacer?"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#0D47A1"
+            android:layout_marginBottom="12dp" />
+
+        <!-- PÁRRAFO CONSEJO -->
+        <TextView
+            android:id="@+id/tvParrafo4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Escuchar con calma. Si la historia suena extraña o muy urgente, es mejor colgar y verificar con otro familiar.\n\nNunca se debe actuar con miedo. El primer paso siempre debe ser confirmar la situación real."
+            android:textSize="22sp"
+            android:layout_marginBottom="28dp"
+            android:justificationMode="inter_word" />
+
+        <!-- BOTÓN SIMULACIÓN -->
+        <Button
+            android:id="@+id/btnIrSimulacion2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ir a la Simulación"
+            android:textSize="22sp"
+            android:backgroundTint="#388E3C"
+            android:textColor="#FFFFFF"
+            android:padding="16dp"
+            android:layout_marginBottom="36dp" />
+    </LinearLayout>
+</ScrollView>
+

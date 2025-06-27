@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3F2FD">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="28dp">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🧠 Lección 5: Cómo protegerse de la clonación de voz"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#0D47A1"
+            android:textAlignment="center"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🔉 ¿Prefiere escuchar esta lección?"
+            android:textSize="22sp"
+            android:textStyle="italic"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnReproducirAudio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🔊 Reproducir audio"
+            android:textSize="22sp"
+            android:backgroundTint="#1976D2"
+            android:textColor="#FFFFFF"
+            android:padding="16dp"
+            android:layout_marginBottom="28dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📍 Proteger la voz es proteger la identidad."
+            android:textSize="22sp"
+            android:layout_marginBottom="20dp"
+            android:justificationMode="inter_word" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🔒 ¿Cómo evitar que clonen una voz?"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#0D47A1"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Los estafadores necesitan audios para imitar una voz. Muchas veces, obtienen estas grabaciones de redes sociales, mensajes de voz o videos publicados en internet."
+            android:textSize="22sp"
+            android:layout_marginBottom="20dp"
+            android:justificationMode="inter_word" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="💡 Acciones para protegerse:"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#0D47A1"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Evitar publicar mensajes de voz, audios o videos donde se hable claramente.\n• Configurar las redes sociales en modo privado.\n• No dar permisos innecesarios a aplicaciones para acceder al micrófono.\n• Hablar con la familia y acordar una palabra clave para confirmar la identidad."
+            android:textSize="22sp"
+            android:layout_marginBottom="20dp"
+            android:justificationMode="inter_word" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📣 Una buena comunicación y medidas simples pueden hacer la diferencia."
+            android:textSize="22sp"
+            android:layout_marginBottom="36dp"
+            android:justificationMode="inter_word" />
+
+        <Button
+            android:id="@+id/btnIrSimulacion5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ir a la Simulación"
+            android:textSize="22sp"
+            android:backgroundTint="#388E3C"
+            android:textColor="#FFFFFF"
+            android:padding="16dp" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <application
+        android:allowBackup="true"
+        android:label="Clonación Voz"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ClonacionVoz">
+
+
+        <activity android:name=".AdminMainActivity" />
+        <activity android:name=".ListaUsuariosActivity" />
+        <activity android:name=".DetalleUsuarioActivity" />
+        <activity android:name=".ProgresoGlobalActivity" />
+
+
+        <activity android:name=".UsuarioMainActivity" />
+        <activity android:name=".RegistroActivity" />
+
+        <activity android:name=".MenuLeccionesActivity" />
+        <activity android:name=".Leccion1Activity"/>
+        <activity android:name=".Leccion2Activity" />
+        <activity android:name=".Leccion3Activity" />
+        <activity android:name=".Leccion4Activity" />
+        <activity android:name=".Leccion5Activity" />
+
+        <activity android:name=".SimulacionesActivity"/>
+        <activity android:name=".EvaluacionActivity"/>
+        <activity android:name=".ProgresoActivity"/>
+
+        <activity android:name=".SimulacionLeccion1Activity" />
+        <activity android:name=".SimulacionLeccion2Activity" />
+        <activity android:name=".SimulacionLeccion3Activity" />
+        <activity android:name=".SimulacionLeccion4Activity" />
+        <activity android:name=".SimulacionLeccion5Activity" />
+
+        <activity android:name=".Evaluacion1Activity" />
+        <activity android:name=".Evaluacion2Activity" />
+        <activity android:name=".Evaluacion3Activity" />
+        <activity android:name=".Evaluacion4Activity" />
+        <activity android:name=".Evaluacion5Activity" />
+
+        <activity android:name=".ResultadoEvaluacion1Activity" />
+        <activity android:name=".ResultadoEvaluacion2Activity" />
+        <activity android:name=".ResultadoEvaluacion3Activity" />
+        <activity android:name=".ResultadoEvaluacion4Activity" />
+        <activity android:name=".ResultadoEvaluacion5Activity" />
+
+        <activity android:name=".DetalleEvaluacion1Activity" />
+        <activity android:name=".DetalleEvaluacion2Activity" />
+        <activity android:name=".DetalleEvaluacion3Activity" />
+        <activity android:name=".DetalleEvaluacion4Activity" />
+        <activity android:name=".DetalleEvaluacion5Activity" />
+
+
+
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- MainActivity ya no es launcher -->
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
